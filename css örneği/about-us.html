@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US</title>   
+    <!-- favicon oluşturur. -->
+    <link rel="icon" href="ikon4.png" type="image/x-icon">
+    <style>
+body { 
+        background-image: url("duvarkağıdı.jpg");
+        background-repeat: repeat;
+        /* yazıyı ortalamak için kullanıyoruz */
+        text-align: center; 
+        /* text-align kodunu yazsak bile sıralı listelerin noktaları ortalanmıyordu bu kodda o noktalar ortalanıyor. */
+        list-style-position: inside; 
+    } 
+    h1 {
+        color:#B73E3E; 
+        font-size:80px;
+        background: #FCFFB2;
+    }
+    p {
+        color:#905E96;
+        font-size: 40px; 
+        background:#F8FFDB;
+    } 
+    a{
+      color: #DD5353;
+      font-size:20px;
+      background:#DBC5AC;
+    }
+    </style>
+</head>
+<body> 
+      <!-- navbar start -->
+   <header> 
+    <nav>
+        <ul>
+            <li>
+                <a href="home-page.html">HOME PAGE </a>
+            </li>
+            <li>
+                <a href="about-us.html">ABOUT US </a>
+            </li>
+            <li>
+                <a href="products.html">OUR PRODUCTS</a>
+            </li>
+        </ul>
+    </nav>
+   </header>
+    <!-- navbar end --> 
+    <!-- content start --> 
+    <section> 
+    <h1> 
+        <!-- başığın başına ve sonuna ikon yerleştirdim. -->
+        <!-- scrset ikonun boyutunu ayarlar ve px i algılamıyor. px yerine w kullanıyoruz. -->
+        <img
+        src="ikon2.svg" 
+        alt="wait :)" 
+        srcset="ikon2.svg 10000w">
+        WHO ARE WE?  
+        <img 
+        src="ikon2.svg" 
+        alt="wait :)" 
+        srcset="ikon2.svg 10000w">
+    </h1>
+    <p> Our main goal is for our customers to try and enjoy various flavors from the world cuisine.</p> 
+    <p> We offer you unique desserts from many countries, which you can reach 24/7, that you are not familiar with.</p> 
+    
+    </section>
+    <!-- content end -->
+    <!-- footer start -->
+    <ul>
+        <li> 
+            <a href="contact.html">CONTACT US</a>
+        </li> 
+    </ul>
+    <!-- footer end  -->
+</body>
+</html>
