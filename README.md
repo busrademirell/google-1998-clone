@@ -1,2 +1,2 @@
-# CSS--rne-i
+# CSS-ornegi
 HTML-CSS örneği
