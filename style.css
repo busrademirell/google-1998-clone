@@ -1,0 +1,123 @@
+:root {
+  --color-first: #eeeeee;
+  --color-second: #7ee5da;
+  --color-third: #70ccc2;
+  --color-four: #62b3aa;
+  --color-header: #3a3939;
+  --color-black: #000000;
+}
+body {
+  color: var(--color-header);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  justify-content: flex-start;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+img {
+  width: 351px;
+  height: 113px;
+}
+#search,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p {
+  color: var(--color-black);
+  font-size: 16px;
+}
+button {
+  font-family: "MS Sans Serif", Tahoma, sans-serif;
+}
+#first-section {
+  background-color: var(--color-first);
+  text-align: center;
+}
+#first-section p {
+  margin-bottom: 0;
+  margin-top: 0;
+  color: var(--color-black);
+  font-size: 16px;
+}
+.search-engine {
+  width: 315px;
+}
+
+#cover {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2px;
+  margin-top: 2px;
+}
+#second-section {
+  background-color: var(--color-second);
+  width: 500px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#second-section .links {
+  font-size: 16px;
+}
+#second-section .links,
+#second-section p {
+  margin: 0;
+}
+.links a {
+  display: block;
+}
+
+#third-section {
+  background-color: var(--color-third);
+  width: 265px;
+  text-align: center;
+  padding: 5px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#third-section .links {
+  font-size: 13px;
+}
+
+#four-section {
+  background-color: var(--color-four);
+  width: 600px;
+}
+#four-section p {
+  font-size: 13px;
+}
+
+#content-center {
+  align-items: center;
+  text-align: center;
+  margin-top: 0;
+  justify-content: flex-start;
+}
+
+#four-section p,
+.mail-engine,
+#subscripe-button,
+#content-center .buttons a {
+  margin: 0;
+  padding: 0;
+}
+
+#subscripe-button {
+  padding: 1px 5px;
+  margin-right: 10px;
+}
+footer {
+  margin-top: 20px;
+  color: var(--color-black);
+}
+::placeholder {
+  color: var(--color-black);
+  font-size: 13px;
+}
