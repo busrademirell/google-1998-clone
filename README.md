@@ -11,7 +11,7 @@
 
 ## 🎯 Purpose
 
-This project was developed to recreate the 1998 Google homepage (https://web.archive.org/web/19981202230410if_/http://www.google.com/) using HTML and CSS. The project's goal is to understand old web design techniques and create a nostalgic user experience on modern browsers.
+This project was developed [to recreate the 1998 Google homepage](https://web.archive.org/web/19981202230410if_/http://www.google.com/) using HTML and CSS. The project's goal is to understand old web design techniques and create a nostalgic user experience on modern browsers.
 
 ## 🛠️ Technologies Used
 
