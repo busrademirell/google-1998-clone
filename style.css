@@ -10,7 +10,6 @@ body {
   color: var(--color-header);
   font-family: "Times New Roman", Times, serif;
   font-size: 12px;
-  justify-content: flex-start;
   margin-left: 80px;
   margin-right: 80px;
 }
@@ -98,18 +97,16 @@ button {
   align-items: center;
   text-align: center;
   margin-top: 0;
-  justify-content: flex-start;
 }
 
 #four-section p,
 .mail-engine,
-#subscripe-button,
-#content-center .buttons a {
+#subscribe-button {
   margin: 0;
   padding: 0;
 }
 
-#subscripe-button {
+#subscribe-button {
   padding: 1px 5px;
   margin-right: 10px;
 }
