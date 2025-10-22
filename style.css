@@ -43,7 +43,11 @@ button {
 .search-engine {
   width: 315px;
 }
-
+#search p {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
 #cover {
   display: flex;
   justify-content: center;
