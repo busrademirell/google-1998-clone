@@ -1,17 +1,18 @@
  <p align="center">
-  <a href="https://github.com/busrademirell/google-1998-clone/blob/master/README.md">
+  <a href="https://github.com/busrademirell/retro-search-clone/blob/master/README.md">
     <img alt="downloads" src="https://img.shields.io/badge/English-En-blue" target="_blank" />
   </a>
-  <a href="https://github.com/busrademirell/google-1998-clone/blob/master/doc/tr/README_tr.md">
+  <a href="https://github.com/busrademirell/retro-search-clone/blob/master/doc/tr/README_tr.md">
     <img alt="License: MIT" src="https://img.shields.io/badge/Turkish-Tr-red" target="_blank" />
   </a>
 </p>
  
- # Retro Google Clone (1998)
+# Retro Arama Ana Sayfa Klonu (1998 Tarzı)
 
 ## 🎯 Amaç
 
-Bu proje, [ 1998 yılındaki Google ana sayfasının](https://web.archive.org/web/19981202230410if_/http://www.google.com/) HTML ve CSS kullanılarak yeniden oluşturulması amacıyla geliştirilmiştir. Projenin hedefi, eski web tasarım tekniklerini anlamak ve modern tarayıcılar üzerinde nostaljik bir kullanıcı deneyimi yaratmaktır.
+Bu proje,[1998 tarzı bir arama motoru ana sayfasını](https://web.archive.org/web/19981202230410if_/http://www.google.com/) HTML ve CSS kullanarak yeniden oluşturmak için geliştirilmiştir.
+Projenin amacı, erken dönem web tasarım tekniklerini anlamak ve modern tarayıcılarda nostaljik bir kullanıcı deneyimi oluşturmaktır.
 
 ## 🛠️ Kullanılan Teknolojiler
 
@@ -20,17 +21,17 @@ Bu proje, [ 1998 yılındaki Google ana sayfasının](https://web.archive.org/we
 
 ## ✨ Özellikler
 
-- Orijinal Google 1998 tasarımına sadık, basit ve temiz yapı
-- CSS ile stil ve düzen yönetimi
-- Kullanıcı arayüzü öğeleri: arama kutusu, butonlar, logo yerleşimi
-- Eğitim ve pratik amaçlı nostaljik tasarım denemesi
+- Orijinal 1990’ların arama sayfası stiline sadık, basit ve temiz bir yapı
+- Düzen ve stillendirme tamamen saf CSS kullanılarak oluşturulmuştur
+- Arama kutusu, butonlar ve ortalanmış logo gibi klasik kullanıcı arayüzü öğeleri
+- Eğitim ve öğrenme amaçlı oluşturulmuş nostaljik bir tasarım deneyi
 
 ## 🚀 Kurulum ve Çalıştırma
 
 1. Repoyu bilgisayarınıza klonlayın:
 
 ```bash
-git clone https://github.com/busrademirell/google-1998-clone.git
+git clone https://github.com/busrademirell/retro-search-clone.git
 ```
 
 2. İlgili proje klasörüne gidin:
@@ -43,7 +44,7 @@ cd proje-adi
 
 ---
 
-## ℹ️ Kullanım Notları
+## ⚠️ Sorumluluk Reddi
 
 - Proje **yalnızca eğitim ve deneyim amaçlıdır**; ticari kullanım için uygun değildir.
 - Tasarım ve kod yapısı, öğrenme sürecini kolaylaştıracak şekilde **sade tutulmuştur**.
